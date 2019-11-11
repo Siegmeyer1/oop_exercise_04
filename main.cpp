@@ -14,7 +14,7 @@ int main() {
                 std::cout << "no such option, try m for man" << std::endl;
                 break;
             case 'q':
-                return 0;
+                break;
             case 'm': {
                 std::cout << "1) process triangle" << '\n'
                 << "2) process square" << '\n'

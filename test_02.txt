@@ -1,0 +1,6 @@
+//необходимо вставить этот код в main в поле PLACE-FOR-CUSTOM-TESTS
+// и выбрать 5-ую опцию при запуске программы
+
+ auto tup = std::make_tuple(vertex<double>{0.0, 0.0},
+                        vertex<int>{0, 2}, vertex<float>{2.0, 0.0});
+                printout(tup, std::cout);

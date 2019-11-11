@@ -1,7 +1,3 @@
-//
-// Created by anri on 08.11.2019.
-//
-
 #ifndef OOP_EXERCISE_04_PROCESS_H
 #define OOP_EXERCISE_04_PROCESS_H
 
@@ -37,7 +33,7 @@ void process(std::istream& is, std::ostream& os) {
                     is >> i;
                 }
                 if (!is_proper_square(fig)) {
-                    throw std::logic_error ("square is not squarish enouth");
+                    throw std::logic_error ("square is not squarish enough");
                 }
                 auto[a, b, c, d] = fig;
                 auto object = std::make_tuple(a, b, c, d);
