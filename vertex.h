@@ -51,6 +51,7 @@ template<class T>
 vertex<T> operator/=(vertex<T>& A, const double B) {
     A.x /= B;
     A.y /= B;
+    return A;
 }
 
 template<class T>
